@@ -21,7 +21,7 @@
     <parent>
         <groupId>io.spring.platform</groupId>
         <artifactId>platform-bom</artifactId>
-        <version>1.1.2.RELEASE</version>
+        <version>Brussels-SR1</version>
     </parent>
 
     <prerequisites>
@@ -900,6 +900,11 @@
                 <version>${ehcache-web.version}</version>
             </dependency>
             <dependency>
+                <groupId>net.sf.ehcache</groupId>
+                <artifactId>ehcache-core</artifactId>
+                <version>2.1.1</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.shale</groupId>
                 <artifactId>shale-test</artifactId>
                 <version>${shale.version}</version>
@@ -1003,6 +1008,14 @@
                 <artifactId>xml-apis</artifactId>
                 <version>1.4.01</version>
             </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity-tools -->
+<dependency>
+    <groupId>org.apache.velocity</groupId>
+    <artifactId>velocity-tools</artifactId>
+    <version>2.0</version>
+</dependency>
+
         </dependencies>
     </dependencyManagement>
 
